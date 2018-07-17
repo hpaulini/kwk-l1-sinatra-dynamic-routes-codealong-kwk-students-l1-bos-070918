@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    this is your homepage
+    "this is your homepage"
   end
   # This is a sample static route.
   get '/hello' do
